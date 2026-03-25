@@ -3,3 +3,32 @@ __pycache__/
 *.log
 .venv/
 .env
+
+# Environment and local secret files
+.env.*
+!.env.example
+*.env
+*.local
+*.secret
+*.secrets
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+
+# Cloud/service credential files
+*credentials*.json
+service-account*.json
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
